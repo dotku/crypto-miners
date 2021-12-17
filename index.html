@@ -56,8 +56,9 @@
       })();
       
       function render({rows}) {
+        const tableRows = [];
         rows.forEach(item => {
-              rows.push(`<tr>
+              tableRows.push(`<tr>
             <td>${item.brand || ''}</td>
             <td>${item.model || ''}</td>
             <td>${item.compute || ''}</td>
@@ -65,7 +66,7 @@
             <td>${item.price || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
           </tr>`);
             })
-         document.querySelector(".tbody").innerHTML = rows.join("");
+         document.querySelector(".tbody").innerHTML = tableRows.join("");
       }
       
       document.querySelector("input").onchange = () => {
