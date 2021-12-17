@@ -10,6 +10,7 @@
       <table class="table">
         <thead>
           <tr>
+            <th>Brand</th>
             <th>Model</th>
             <th>Power</th>
             <th>Stock</th>
@@ -33,14 +34,17 @@
             const data = rsp;
             const rows = [];
             data.forEach(item => {
-              rows = `<tr>
+              rows.push(`<tr>
+            <td>${item.brand}</td>
             <td>${item.model}</td>
             <td>${item.compute}</td>
             <td>${item.unit || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
             <td>${item.price || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
-          </tr>`;
+          </tr>`);
             })
+         querySelector(".tbody").innerHTML = rows.join("");
          });
+      
     </script>
   </body>
 </html>
