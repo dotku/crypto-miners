@@ -55,15 +55,23 @@
          });
       })();
       
+      function getAsk({
+        email,
+        subject
+      }){
+        return `<a href="mailto:${email}?subject=${subject}">Ask</a>`;
+      }
+      
       function render({rows}) {
         const tableRows = [];
+        const ask = getAsk({email:"weijingjaylin@gmail.com", subject: `looking for item ${item.brand} ${item.model}`});
         rows.sort((a, b) => a.brand.localeCompare(b.brand)).forEach(item => {
               tableRows.push(`<tr>
             <td>${item.brand || ''}</td>
             <td>${item.model || ''}</td>
             <td>${item.compute || ''}</td>
-            <td>${item.unit || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
-            <td>${item.price || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
+            <td>${item.unit || ask}</td>
+            <td>${item.price || ask}</td>
           </tr>`);
             })
          document.querySelector(".tbody").innerHTML = tableRows.join("");
