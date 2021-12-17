@@ -50,7 +50,16 @@
       const rows = [];
       let data = [];
       
-      function render({data}) {
+      (async () => {
+        await fetch("./data/miners.json")
+         .then(rsp => rsp.json())
+         .then(rsp => {
+            data = rsp;
+            render({rows: data});
+         });
+      })();
+      
+      function render({rows}) {
         rows.forEach(item => {
               rows.push(`<tr>
             <td>${item.brand || ''}</td>
@@ -67,7 +76,7 @@
         const keywords = document.querySelector("input[name='keywords']").value;
         
         if (!keywords.length) {
-          render({data: newData});
+          render({rows: data});
           return;
         }
         
@@ -78,15 +87,8 @@
                                   || (item.unit && item.unit >= keywords)
                                   || (item.price && item.price <= keywords)
                                  );
-        render({data: newData});
+        render({rows: newData});
       }
-      
-       fetch("./data/miners.json")
-         .then(rsp => rsp.json())
-         .then(rsp => {
-            data = rsp;
-            render({data});
-         });
       
     </script>
   </body>
