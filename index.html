@@ -52,9 +52,9 @@
             const rows = [];
             data.forEach(item => {
               rows.push(`<tr>
-            <td>${item.brand}</td>
-            <td>${item.model}</td>
-            <td>${item.compute}</td>
+            <td>${item.brand || ''}</td>
+            <td>${item.model || ''}</td>
+            <td>${item.compute || ''}</td>
             <td>${item.unit || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
             <td>${item.price || '<a href="mailto:weijingjaylin@gmail.com">Ask</a>'}</td>
           </tr>`);
