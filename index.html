@@ -75,8 +75,8 @@
                                   || item.brand?.includes(keywords) 
                                   || item.model?.includes(keywords)
                                   || item.compute?.includes(keywords)
-                                  || item.unit? >= keywords
-                                  || item.price <= keywords
+                                  || (item.unit && item.unit >= keywords)
+                                  || (item.price && item.price <= keywords)
                                  );
         render({data: newData});
       }
