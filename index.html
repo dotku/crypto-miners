@@ -78,9 +78,9 @@
         }
         
         let newData = data.filter(item => item.brand?.includes(keywords) 
-                                  || item.brand?.includes(keywords) 
-                                  || item.model?.includes(keywords)
-                                  || item.compute?.includes(keywords)
+                                  || item.brand?.match(/keywords/i) 
+                                  || item.model?.match(/keywords/i)
+                                  || item.compute?.match(/keywords/i)
                                   || (item.unit && item.unit >= keywords)
                                   || (item.price && item.price <= keywords)
                                  );
