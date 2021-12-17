@@ -1,0 +1,125 @@
+[{
+  "brand": "Bitmain Antminer",
+  "model": "S19j Pro",
+  "compute": "90T",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "InnoSilicon",
+  "model": "A11",
+  "compute": "85T",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "Fourbull",
+  "model": "",
+  "compute": "83T",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "Bitmain Antminer",
+  "model": "L7",
+  "compute": "S19j Pro",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "iPollo",
+  "model": "b1",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "Bitmain Antminer",
+  "compute": "S19j Pro",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "Whatsminer",
+  "model": "m31s+",
+  "compute": "80T",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "Whatsminer",
+  "model": "m31s",
+  "compute": "86T",
+  "unit": 0,
+  "price": 0
+},{
+  "brand": "iPollo",
+  "model": "v1 mini",
+  "compute": "300m",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "InnoSilicon",
+  "model": "T2T",
+  "compute": "25T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "GoldenShell",
+  "model": "LT5 Pro",
+  "compute": "2.45G",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "eBang",
+  "model": "E12",
+  "compute": "44T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "S19",
+  "compute": "95T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "T19",
+  "compute": "84T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Whatsminer",
+  "model": "m21s",
+  "compute": "52T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "m21s",
+  "compute": "52T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "s9k",
+  "compute": "14T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "InnoSilicon",
+  "model": "A10 7G",
+  "compute": "",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "InnoSilicon",
+  "model": "A10 6G",
+  "compute": "500m",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "s17+",
+  "compute": "76T",
+  "unit": 0,
+  "price": 0
+}, {
+  "brand": "Bitmain Antminer",
+  "model": "s17pro",
+  "compute": "53T",
+  "unit": 0,
+  "price": 0
+}]
