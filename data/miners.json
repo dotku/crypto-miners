@@ -19,17 +19,12 @@
 },{
   "brand": "Bitmain Antminer",
   "model": "L7",
-  "compute": "S19j Pro",
+  "compute": "9160M",
   "unit": 0,
   "price": 0
 },{
   "brand": "iPollo",
   "model": "b1",
-  "unit": 0,
-  "price": 0
-},{
-  "brand": "Bitmain Antminer",
-  "compute": "S19j Pro",
   "unit": 0,
   "price": 0
 },{
