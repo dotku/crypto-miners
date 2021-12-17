@@ -18,7 +18,7 @@
       <table class="table">
         <thead>
           <tr>
-            <th class="d-sm-none">Brand</th>
+            <th class="d-none d-sm-block">Brand</th>
             <th>Model</th>
             <th>Compute</th>
             <th>Stock</th>
@@ -71,10 +71,10 @@
         const askItem = ({item}) => getAsk({email:"weijingjaylin@gmail.com", subject: `looking for item ${item.brand} ${item.model}`});
         rows.sort((a, b) => a.brand.localeCompare(b.brand)).forEach(item => {
               tableRows.push(`<tr>
-            <td class="d-none-sm">${item.brand || ''}</td>
+            <td class="d-none d-sm-block">${item.brand || ''}</td>
             <td>${item.model || ''}</td>
             <td>${item.compute || ''}</td>
-            <td class="d-none-sm">${item.unit || askItem({item})}</td>
+            <td class="d-none d-sm-block">${item.unit || askItem({item})}</td>
             <td>${item.price || askItem({item})}</td>
           </tr>`);
             })
