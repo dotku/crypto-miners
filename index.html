@@ -69,7 +69,7 @@
          document.querySelector(".tbody").innerHTML = tableRows.join("");
       }
       
-      document.querySelector("input").onchange = () => {
+      document.querySelector("input").onkeydown = () => {
         const keywords = document.querySelector("input[name='keywords']").value;
         
         if (!keywords.length) {
