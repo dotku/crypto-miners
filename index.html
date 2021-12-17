@@ -57,7 +57,7 @@
       
       function render({rows}) {
         const tableRows = [];
-        rows.forEach(item => {
+        rows.sort((a, b) => a.brand.localeCompare(b.brand)).forEach(item => {
               tableRows.push(`<tr>
             <td>${item.brand || ''}</td>
             <td>${item.model || ''}</td>
