@@ -117,4 +117,16 @@
   "compute": "53T",
   "unit": 0,
   "price": 0
+}, {
+  "brand": "Goldenshell",
+  "model": "KD-BOX",
+  "compute": "1.6 Th/s",
+  "unit": 50,
+  "price": 0
+}, {
+  "brand": "Goldenshell",
+  "model": "KD5",
+  "compute": "18 Th/s",
+  "unit": 50,
+  "price": 0
 }]
