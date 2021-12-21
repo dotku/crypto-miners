@@ -44,7 +44,7 @@
           <div class="form-group mb-2">
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-          <button class="btn btn-primary mb-2">Sent</button>
+          <button class="btn btn-primary mb-2 sent">Sent</button>
         </form>
         <div>
           <div><strong>Jay Lin</strong></div>
@@ -106,6 +106,10 @@
                                   || (item.price && item.price <= keywords)
                                  );
         render({rows: newData});
+      }
+      
+      document.querySelector(".btn.sent").onclick = () => {
+        window.open('mailto:weijingjaylin@gmail.com?subject=query on miner&body=sent from BitDigital.us');
       }
       
     </script>
