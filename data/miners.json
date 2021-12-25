@@ -1,26 +1,26 @@
 [{
   "company": "Bitmain",
   "model": "Antminer S19j Pro",
-  "compute": "90T",
+  "hashrate": "90T",
   "unit": 0,
   "price": 0
 }, {
   "company": "Bitmain",
   "model": "Antminer Z15",
-  "compute": "1286G",
+  "hashrate": "1286G",
   "unit": 0,
   "price": 13000
 }, {
   "company": "Bitmain",
   "model": "Antminer D7",
-  "compute": "420K",
+  "hashrate": "420K",
   "unit": 0,
   "price": 12000
 },
 {
   "company": "Bitmain",
   "model": "Antminer DR5",
-  "compute": "35T",
+  "hashrate": "35T",
   "unit": 0,
   "price": 6700,
   "vendors":["Zhao"]
@@ -28,14 +28,14 @@
 {
   "company": "Bitmain",
   "model": "Antminer L3+",
-  "compute": "504M",
+  "hashrate": "504M",
   "unit": 0,
   "price": 800
 },
 {
   "company": "Bitmain",
   "model": "Antminer L7",
-  "compute": "9.16G",
+  "hashrate": "9.16G",
   "unit": 0,
   "price": 23000,
   "vendors": ["Zhao"]
@@ -43,7 +43,7 @@
 {
   "company": "Bitmain",
   "model": "Antminer S17",
-  "compute": "76T",
+  "hashrate": "76T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -51,7 +51,7 @@
 {
   "company": "Bitmain",
   "model": "Antminer S17+",
-  "compute": "76T",
+  "hashrate": "76T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -59,14 +59,14 @@
 {
   "company": "Bitmain",
   "model": "Antminer S17 Pro",
-  "compute": "53T",
+  "hashrate": "53T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "Bitmain",
   "model": "Antminer S19+",
-  "compute": "99T",
+  "hashrate": "99T",
   "unit": 30,
   "price": 8000,
   "vendors": ["Zhao"]
@@ -74,28 +74,28 @@
 {
   "company": "Bitmain",
   "model": "Antminer S19 Pro",
-  "compute": "110T",
+  "hashrate": "110T",
   "unit": 0,
   "price": 11600
 },
 {
   "company": "Bitmain",
   "model": "Antminer T17",
-  "compute": "42T",
+  "hashrate": "42T",
   "unit": 200,
   "price": 1600
 },
 {
   "company": "Bitmain",
   "model": "Antminer M21S",
-  "compute": "52T",
+  "hashrate": "52T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "Bitmain",
   "model": "Antminer S9I",
-  "compute": "14T",
+  "hashrate": "14T",
   "unit": 24,
   "price": 500,
   "vendors": ["Zhao"]
@@ -103,14 +103,14 @@
 {
   "company": "Bitmain",
   "model": "Antminer S9K",
-  "compute": "14T",
+  "hashrate": "14T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "Canaan Creative",
   "model": "Avalon 1166 Pro",
-  "compute": "81T",
+  "hashrate": "81T",
   "unit": 0,
   "price": 12000,
   "vendors": ["Zhao"]
@@ -118,7 +118,7 @@
 {
   "company": "Canaan Creative",
   "model": "Avalon 1246",
-  "compute": "85T",
+  "hashrate": "85T",
   "unit": 0,
   "price": 12000,
   "vendors": ["Zhao"]
@@ -126,7 +126,7 @@
 {
   "company": "Fourbull",
   "model": "C16",
-  "compute": "83T",
+  "hashrate": "83T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -134,7 +134,7 @@
 {
   "company": "GoldenShell",
   "model": "LT5 Pro",
-  "compute": "2.45G",
+  "hashrate": "2.45G",
   "unit": 18,
   "price": 8000,
   "vendors": ["Zhao"]
@@ -142,21 +142,21 @@
 {
   "company": "InnoSilicon",
   "model": "A17 Pro",
-  "compute": "50T",
+  "hashrate": "50T",
   "unit": 0,
   "price": 12000
 },
 {
   "company": "InnoSilicon",
   "model": "A11",
-  "compute": "85T",
+  "hashrate": "85T",
   "unit": 0,
   "price": 26000
 },
 {
   "company": "InnoSilicon",
   "model": "T2T",
-  "compute": "30T",
+  "hashrate": "30T",
   "unit": 0,
   "price": 1200,
   "vendors": ["Zhao"]
@@ -170,7 +170,7 @@
 {
   "company": "iPollo",
   "model": "v1 mini",
-  "compute": "300m",
+  "hashrate": "300m",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -178,7 +178,7 @@
 {
   "company": "MicroBT",
   "model": "Whatsminer M20S",
-  "compute": "70T",
+  "hashrate": "70T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -186,7 +186,7 @@
 {
   "company": "MicroBT",
   "model": "Whatsminer M21B",
-  "compute": "52T",
+  "hashrate": "52T",
   "unit": 0,
   "price": 1000,
   "vendors": ["Zhao"]
@@ -194,7 +194,7 @@
 {
   "company": "MicroBT",
   "model": "Whatsminer M21C",
-  "compute": "52T",
+  "hashrate": "52T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -202,7 +202,7 @@
 {
   "company": "MicroBT",
   "model": "Whatsminer M21S",
-  "compute": "52T",
+  "hashrate": "52T",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -210,66 +210,66 @@
 {
   "company": "MicroBT",
   "model": "Whatsminer M30",
-  "compute": "92T",
+  "hashrate": "92T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "MicroBT",
   "model": "Whatsminer M31S+",
-  "compute": "80T",
+  "hashrate": "80T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "MicroBT",
   "model": "Whatsminer M31S",
-  "compute": "86T",
+  "hashrate": "86T",
   "unit": 0,
   "price": 0
 }, {
   "company": "InnoSilicon",
   "model": "T2T",
-  "compute": "25T",
+  "hashrate": "25T",
   "unit": 0,
   "price": 0
 }, {
   "company": "eBang",
   "model": "E12",
-  "compute": "44T",
+  "hashrate": "44T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "Bitmain",
   "model": "Antminer T19",
-  "compute": "84T",
+  "hashrate": "84T",
   "unit": 0,
   "price": 0
 },
 {
   "company": "InnoSilicon",
   "model": "A10 7G",
-  "compute": "",
+  "hashrate": "",
   "unit": 0,
   "price": 0
 }, {
   "company": "InnoSilicon",
   "model": "A10 6G",
-  "compute": "500m",
+  "hashrate": "500m",
   "unit": 0,
   "price": 0
 }, {
   "company": "Goldenshell",
   "model": "KD-BOX",
-  "compute": "1.6 Th/s",
+  "hashrate": "1.6 Th/s",
   "unit": 50,
   "price": 0,
   "updated": 1640070882
 }, {
   "company": "Goldenshell",
   "model": "KD5",
-  "compute": "18 Th/s",
+  "hashrate": "18 Th/s",
   "unit": 50,
   "price": 0,
   "updated": 1640070882

@@ -30,7 +30,7 @@ function render({ rows }) {
       tableRows.push(`<tr>
             <td>${item.company || ""}</td>
             <td>${item.model || ""}</td>
-            <td>${item.compute || ""}</td>
+            <td>${item.hashrate || ""}</td>
             <td class="d-none d-sm-block">${item.unit || askItem({ item })}</td>
             <td>${
               item.price ? formatter.format(item.price) : askItem({ item })
@@ -53,7 +53,7 @@ document.querySelector("input").onkeypress = () => {
       item.company?.includes(keywords) ||
       item.company?.match(/keywords/i) ||
       item.model?.match(/keywords/i) ||
-      item.compute?.match(/keywords/i) ||
+      item.hashrate?.match(/keywords/i) ||
       (item.unit && item.unit >= keywords) ||
       (item.price && item.price <= keywords)
   );
