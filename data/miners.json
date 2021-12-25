@@ -28,14 +28,14 @@
 {
   "company": "Bitmain",
   "model": "Antminer L3+",
-  "compute": "9160M",
+  "compute": "504M",
   "unit": 0,
   "price": 800
 },
 {
   "company": "Bitmain",
   "model": "Antminer L7",
-  "compute": "9160M",
+  "compute": "9.16G",
   "unit": 0,
   "price": 23000,
   "vendors": ["Zhao"]
