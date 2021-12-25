@@ -26,6 +26,7 @@ function render({ rows }) {
   });
   rows
     .sort((a, b) => a.company.localeCompare(b.company))
+    .sort((a, b) => a.model.localeCompare(b.model))
     .forEach((item) => {
       tableRows.push(`<tr>
             <td>${item.company || ""}</td>

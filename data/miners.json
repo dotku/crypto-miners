@@ -1,11 +1,5 @@
 [{
   "company": "Bitmain",
-  "model": "Antminer S19j Pro",
-  "hashrate": "90T",
-  "unit": 0,
-  "price": 0
-}, {
-  "company": "Bitmain",
   "model": "Antminer Z15",
   "hashrate": "1286G",
   "unit": 0,
@@ -42,6 +36,13 @@
 },
 {
   "company": "Bitmain",
+  "model": "Antminer M21S",
+  "hashrate": "52T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "Bitmain",
   "model": "Antminer S17",
   "hashrate": "76T",
   "unit": 0,
@@ -65,6 +66,13 @@
 },
 {
   "company": "Bitmain",
+  "model": "Antminer S19J Pro",
+  "hashrate": "90T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "Bitmain",
   "model": "Antminer S19+",
   "hashrate": "99T",
   "unit": 30,
@@ -83,12 +91,13 @@
   "model": "Antminer T17",
   "hashrate": "42T",
   "unit": 200,
-  "price": 1600
+  "price": 1600,
+  "vendors": ["Zhao"]
 },
 {
   "company": "Bitmain",
-  "model": "Antminer M21S",
-  "hashrate": "52T",
+  "model": "Antminer T19",
+  "hashrate": "84T",
   "unit": 0,
   "price": 0
 },
@@ -237,13 +246,6 @@
   "company": "eBang",
   "model": "E12",
   "hashrate": "44T",
-  "unit": 0,
-  "price": 0
-},
-{
-  "company": "Bitmain",
-  "model": "Antminer T19",
-  "hashrate": "84T",
   "unit": 0,
   "price": 0
 },
