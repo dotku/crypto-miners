@@ -4,18 +4,56 @@
   "compute": "90T",
   "unit": 0,
   "price": 0
-},{
+}, {
+  "company": "Bitmain",
+  "model": "Antminer Z15",
+  "compute": "1286G",
+  "unit": 0,
+  "price": 13000
+}, {
+  "company": "Bitmain",
+  "model": "Antminer D7",
+  "compute": "420K",
+  "unit": 0,
+  "price": 12000
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer DR5",
+  "compute": "35T",
+  "unit": 0,
+  "price": 8700
+},
+{
+  "company": "Canaan Creative",
+  "model": "Avalon 1166 Pro",
+  "compute": "81T",
+  "unit": 0,
+  "price": 12000,
+  "vendors": ["Shao"]
+},
+{
+  "company": "Canaan Creative",
+  "model": "Avalon 1246",
+  "compute": "85T",
+  "unit": 0,
+  "price": 12000,
+  "vendors": ["Shao"]
+},
+{
+  "company": "Fourbull",
+  "model": "C16",
+  "compute": "83T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Shao"]
+},
+{
   "company": "InnoSilicon",
   "model": "A11",
   "compute": "85T",
   "unit": 0,
-  "price": 0
-},{
-  "company": "Fourbull",
-  "model": "",
-  "compute": "83T",
-  "unit": 0,
-  "price": 0
+  "price": 26000
 },{
   "company": "Bitmain",
   "model": "Antminer L7",
