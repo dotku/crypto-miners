@@ -237,12 +237,6 @@
   "unit": 0,
   "price": 0
 }, {
-  "company": "InnoSilicon",
-  "model": "T2T",
-  "hashrate": "25T",
-  "unit": 0,
-  "price": 0
-}, {
   "company": "eBang",
   "model": "E12",
   "hashrate": "44T",
