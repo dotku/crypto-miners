@@ -11,13 +11,18 @@
       crossorigin="anonymous"
     />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-78JE895RYK"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-78JE895RYK"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-78JE895RYK');
+      gtag("config", "G-78JE895RYK");
     </script>
   </head>
   <body>
@@ -131,8 +136,8 @@
 
         let newData = data.filter(
           (item) =>
-            item.brand?.includes(keywords) ||
-            item.brand?.match(/keywords/i) ||
+            item.company?.includes(keywords) ||
+            item.company?.match(/keywords/i) ||
             item.model?.match(/keywords/i) ||
             item.compute?.match(/keywords/i) ||
             (item.unit && item.unit >= keywords) ||
