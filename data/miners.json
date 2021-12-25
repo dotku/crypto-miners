@@ -22,7 +22,90 @@
   "model": "Antminer DR5",
   "compute": "35T",
   "unit": 0,
-  "price": 8700
+  "price": 6700,
+  "vendors":["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer L3+",
+  "compute": "9160M",
+  "unit": 0,
+  "price": 800
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer L7",
+  "compute": "9160M",
+  "unit": 0,
+  "price": 23000,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S17",
+  "compute": "76T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S17+",
+  "compute": "76T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S17 Pro",
+  "compute": "53T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S19+",
+  "compute": "99T",
+  "unit": 30,
+  "price": 8000,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S19 Pro",
+  "compute": "110T",
+  "unit": 0,
+  "price": 11600
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer T17",
+  "compute": "42T",
+  "unit": 200,
+  "price": 1600
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer M21S",
+  "compute": "52T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S9I",
+  "compute": "14T",
+  "unit": 24,
+  "price": 500,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "Bitmain",
+  "model": "Antminer S9K",
+  "compute": "14T",
+  "unit": 0,
+  "price": 0
 },
 {
   "company": "Canaan Creative",
@@ -30,7 +113,7 @@
   "compute": "81T",
   "unit": 0,
   "price": 12000,
-  "vendors": ["Shao"]
+  "vendors": ["Zhao"]
 },
 {
   "company": "Canaan Creative",
@@ -38,7 +121,7 @@
   "compute": "85T",
   "unit": 0,
   "price": 12000,
-  "vendors": ["Shao"]
+  "vendors": ["Zhao"]
 },
 {
   "company": "Fourbull",
@@ -46,7 +129,22 @@
   "compute": "83T",
   "unit": 0,
   "price": 0,
-  "vendors": ["Shao"]
+  "vendors": ["Zhao"]
+},
+{
+  "company": "GoldenShell",
+  "model": "LT5 Pro",
+  "compute": "2.45G",
+  "unit": 18,
+  "price": 8000,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "InnoSilicon",
+  "model": "A17 Pro",
+  "compute": "50T",
+  "unit": 0,
+  "price": 12000
 },
 {
   "company": "InnoSilicon",
@@ -54,33 +152,79 @@
   "compute": "85T",
   "unit": 0,
   "price": 26000
-},{
-  "company": "Bitmain",
-  "model": "Antminer L7",
-  "compute": "9160M",
+},
+{
+  "company": "InnoSilicon",
+  "model": "T2T",
+  "compute": "30T",
   "unit": 0,
-  "price": 0
-},{
+  "price": 1200,
+  "vendors": ["Zhao"]
+},
+{
   "company": "iPollo",
   "model": "b1",
   "unit": 0,
   "price": 0
-},{
-  "company": "Whatsminer",
-  "model": "m31s+",
-  "compute": "80T",
-  "unit": 0,
-  "price": 0
-},{
-  "company": "Whatsminer",
-  "model": "m31s",
-  "compute": "86T",
-  "unit": 0,
-  "price": 0
-},{
+},
+{
   "company": "iPollo",
   "model": "v1 mini",
   "compute": "300m",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M20S",
+  "compute": "70T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M21B",
+  "compute": "52T",
+  "unit": 0,
+  "price": 1000,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M21C",
+  "compute": "52T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M21S",
+  "compute": "52T",
+  "unit": 0,
+  "price": 0,
+  "vendors": ["Zhao"]
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M30",
+  "compute": "92T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M31S+",
+  "compute": "80T",
+  "unit": 0,
+  "price": 0
+},
+{
+  "company": "MicroBT",
+  "model": "Whatsminer M31S",
+  "compute": "86T",
   "unit": 0,
   "price": 0
 }, {
@@ -90,48 +234,20 @@
   "unit": 0,
   "price": 0
 }, {
-  "company": "GoldenShell",
-  "model": "LT5 Pro",
-  "compute": "2.45G",
-  "unit": 0,
-  "price": 0
-}, {
   "company": "eBang",
   "model": "E12",
   "compute": "44T",
   "unit": 0,
   "price": 0
-}, {
-  "company": "Bitmain",
-  "model": "Antminer S19",
-  "compute": "95T",
-  "unit": 0,
-  "price": 0
-}, {
+},
+{
   "company": "Bitmain",
   "model": "Antminer T19",
   "compute": "84T",
   "unit": 0,
   "price": 0
-}, {
-  "company": "Whatsminer",
-  "model": "m21s",
-  "compute": "52T",
-  "unit": 0,
-  "price": 0
-}, {
-  "company": "Bitmain",
-  "model": "Antminer m21s",
-  "compute": "52T",
-  "unit": 0,
-  "price": 0
-}, {
-  "company": "Bitmain",
-  "model": "Antminer s9k",
-  "compute": "14T",
-  "unit": 0,
-  "price": 0
-}, {
+},
+{
   "company": "InnoSilicon",
   "model": "A10 7G",
   "compute": "",
@@ -141,18 +257,6 @@
   "company": "InnoSilicon",
   "model": "A10 6G",
   "compute": "500m",
-  "unit": 0,
-  "price": 0
-}, {
-  "company": "Bitmain",
-  "model": "Antminer s17+",
-  "compute": "76T",
-  "unit": 0,
-  "price": 0
-}, {
-  "company": "Bitmain",
-  "model": "Antminer s17pro",
-  "compute": "53T",
   "unit": 0,
   "price": 0
 }, {
