@@ -30,7 +30,7 @@
       class="navbar navbar-light justify-content-between"
       style="padding-left: 1rem; padding-right: 1rem"
     >
-      <a class="navbar-brand" href="https://dotku.github.io/crypto-miners/"
+      <a class="navbar-company" href="https://dotku.github.io/crypto-miners/"
         ><h1>Crypto Miners</h1></a
       >
       <input name="keywords" placeholder="search" />
@@ -39,7 +39,7 @@
       <table class="table" aria-describedby="Crypto Miners">
         <thead>
           <tr>
-            <th scope="col">Brand</th>
+            <th scope="col">company</th>
             <th scope="col">Model</th>
             <th scope="col">Compute</th>
             <th scope="col" class="d-none d-sm-block">Stock</th>
@@ -110,13 +110,13 @@
         const askItem = ({ item }) =>
           getAsk({
             email: "weijingjaylin@gmail.com",
-            subject: `looking for item ${item.brand} ${item.model}`,
+            subject: `looking for item ${item.company} ${item.model}`,
           });
         rows
-          .sort((a, b) => a.brand.localeCompare(b.brand))
+          .sort((a, b) => a.company.localeCompare(b.company))
           .forEach((item) => {
             tableRows.push(`<tr>
-            <td>${item.brand || ""}</td>
+            <td>${item.company || ""}</td>
             <td>${item.model || ""}</td>
             <td>${item.compute || ""}</td>
             <td class="d-none d-sm-block">${item.unit || askItem({ item })}</td>
