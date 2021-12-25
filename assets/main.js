@@ -32,7 +32,7 @@ function render({ rows }) {
             <td>${item.model || ""}</td>
             <td>${item.compute || ""}</td>
             <td class="d-none d-sm-block">${item.unit || askItem({ item })}</td>
-            <td>${formatter.format(item.price || askItem({ item }))}</td>
+            <td>${formatter.format(item.price) || askItem({ item })}</td>
           </tr>`);
     });
   document.querySelector(".tbody").innerHTML = tableRows.join("");
