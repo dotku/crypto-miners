@@ -112,6 +112,10 @@
             email: "weijingjaylin@gmail.com",
             subject: `looking for item ${item.company} ${item.model}`,
           });
+        const formatter = new Intl.NumberFormat("en-US", {
+          style: "currency",
+          currency: "USD",
+        });
         rows
           .sort((a, b) => a.company.localeCompare(b.company))
           .forEach((item) => {
@@ -120,7 +124,7 @@
             <td>${item.model || ""}</td>
             <td>${item.compute || ""}</td>
             <td class="d-none d-sm-block">${item.unit || askItem({ item })}</td>
-            <td>${item.price || askItem({ item })}</td>
+            <td>${formatter.format(item.price || askItem({ item }))}</td>
           </tr>`);
           });
         document.querySelector(".tbody").innerHTML = tableRows.join("");
