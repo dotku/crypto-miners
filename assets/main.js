@@ -24,9 +24,12 @@ function render({ rows }) {
     style: "currency",
     currency: "USD",
   });
+  const companyGroup = [];
   rows
-    .sort((a, b) => a.company.localeCompare(b.company))
-    .sort((a, b) => a.model.localeCompare(b.model))
+    .sort(
+      (a, b) =>
+        a.company.localeCompare(b.company) || a.model.localeCompare(b.model)
+    )
     .forEach((item) => {
       tableRows.push(`<tr>
             <td>${item.company || ""}</td>
