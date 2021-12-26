@@ -246,13 +246,15 @@
 {
   "company": "InnoSilicon",
   "model": "A10 7G",
-  "hashrate": "",
+  "hashrate": "750M",
+  "algorithem": "ETH",
   "unit": 0,
   "price": 0
 }, {
   "company": "InnoSilicon",
   "model": "A10 6G",
-  "hashrate": "500m",
+  "hashrate": "720M",
+  "algorithem": "ETH",
   "unit": 0,
   "price": 0
 }, {
