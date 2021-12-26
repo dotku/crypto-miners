@@ -179,7 +179,7 @@
 {
   "company": "iPollo",
   "model": "v1 mini",
-  "hashrate": "300m",
+  "hashrate": "300M",
   "unit": 0,
   "price": 0,
   "vendors": ["Zhao"]
@@ -260,14 +260,14 @@
 }, {
   "company": "Goldenshell",
   "model": "KD-BOX",
-  "hashrate": "1.6 Th/s",
+  "hashrate": "1.6T",
   "unit": 50,
   "price": 0,
   "updated": 1640070882
 }, {
   "company": "Goldenshell",
   "model": "KD5",
-  "hashrate": "18 Th/s",
+  "hashrate": "18T",
   "unit": 50,
   "price": 0,
   "updated": 1640070882
