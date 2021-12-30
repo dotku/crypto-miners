@@ -34,8 +34,8 @@ function render({ rows }) {
       tableRows.push(`<tr>
             <td>${item.company || ""}</td>
             <td>${item.model || ""}</td>
-            <td class="d-none d-sm-block">${item.hashrate || ""}</td>
-            <td class="d-none d-sm-block">${item.unit || askItem({ item })}</td>
+            <td class="d-none d-md-table-cell">${item.hashrate || ""}</td>
+            <td class="d-none d-sm-table-cell">${item.unit || askItem({ item })}</td>
             <td>${
               item.price ? formatter.format(item.price) : askItem({ item })
             }</td>
